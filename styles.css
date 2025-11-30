@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for a nerdy look */
+    margin: 0;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+h1 {
+    text-align: center;
+    color: #00ff00; /* Bright green for the main title */
+    margin-bottom: 10px;
+    font-size: 2.5em; /* Larger font size for emphasis */
+}
+
+h2 {
+    text-align: center;
+    color: #00cc00; /* Slightly darker green for the subtitle */
+    font-size: 1.8em; /* Slightly larger subtitle */
+}
+
+.cv, .project {
+    margin: 20px auto;
+    max-width: 800px; /* Center the content */
+    padding: 20px;
+    background: #2a2a2a; /* Darker background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* More pronounced shadow */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.cv:hover, .project:hover {
+    background: #4a4a4a; /* Darker grey on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+h3 {
+    color: #00ff00; /* Bright green for section titles */
+    border-bottom: 2px solid #00ff00; /* Underline for section titles */
+    padding-bottom: 5px;
+    font-size: 1.2em; /* Increase font size for section titles */
+}
+
+p {
+    color: #ffffff; /* Light grey for paragraph text */
+    line-height: 1.6; /* Improve readability */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.project {
+    background: #2a2a2a; /* Darker background for project boxes */
+}
+
+.project h2 {
+    margin: 0;
+    color: #00ff00; /* Bright green for project titles */
+}
+
+.project a {
+    text-decoration: none;
+    color: #00cc00; /* Darker green for links */
+    font-weight: bold; /* Bold links */
+}
+
+.project a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #00ff00; /* Change color on hover */
+}
